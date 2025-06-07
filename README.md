@@ -1,7 +1,7 @@
-# [Bloggly] - A Multi-User Blogging Platform
+# Bloggly - A Multi-User Blogging Platform
 
 
-**[Bloggly]** is a modern, feature-rich, multi-user blogging platform inspired by services like Hashnode and Medium. It empowers individual bloggers and publication teams to create, collaborate, and share their content with the world. Built with a focus on a sleek dark-themed UI, robust features, and a developer-friendly stack.
+**Bloggly** is a modern, feature-rich, multi-user blogging platform inspired by services like Hashnode and Medium. It empowers individual bloggers and publication teams to create, collaborate, and share their content with the world. Built with a focus on a sleek dark-themed UI, robust features, and a developer-friendly stack.
 
 **Live Demo:** [Link to Live Demo (e.g., your Vercel deployment)] (Coming Soon!)
 
@@ -45,33 +45,6 @@ This platform aims to provide a comprehensive blogging experience.
     *   Dynamic `robots.txt` and `sitemap.xml`.
     *   Canonical URLs.
 
-**Post-MVP & Advanced Features (Planned/In Progress):**
-
-*   **Analytics:**
-    *   Post views, basic unique visitor tracking (privacy-conscious).
-    *   Referrer tracking, engagement metrics.
-    *   Dashboard for bloggers with client-side charting.
-*   **AI Tools (Leveraging free tiers or future paid APIs):**
-    *   AI Writing Assistant (title suggestions, summarization, etc. via Hugging Face or OpenAI).
-*   **Collaboration ("Shared Posts"):**
-    *   Invite co-authors to posts.
-    *   Role-based permissions for collaborators (Author, Editor).
-    *   Shared draft review process.
-    *   Email notifications for collaboration invites (via Resend).
-    *   Activity log for collaborative posts.
-*   **Customization:**
-    *   User-defined custom CSS for profiles (sanitized).
-*   **Engagement Features:**
-    *   Likes/Reactions on posts and comments.
-    *   Following users/blogs.
-    *   Real-time in-app notifications (via Supabase Realtime).
-    *   Email notifications for critical events (via Resend).
-*   **Series/Playlists:** Grouping posts.
-*   **Admin Tools & Moderation:**
-    *   User management (view, ban/suspend - for platform admin).
-    *   Content moderation (flagging system, admin review dashboard).
-    *   Spam filtering for comments (Akismet integration).
-
 ## 🚀 Tech Stack
 
 *   **Frontend:** Next.js (React Framework)
@@ -83,17 +56,7 @@ This platform aims to provide a comprehensive blogging experience.
     *   Database: Supabase (PostgreSQL)
     *   Authentication: Supabase Auth
     *   Storage: Supabase Storage (potentially Cloudinary for advanced image optimization)
-    *   Realtime: Supabase Realtime
-    *   Edge Functions: Supabase Edge Functions (Deno/TypeScript) for scheduled tasks (e.g., trending posts).
-    *   Input Validation: Zod
-*   **Deployment:**
-    *   Frontend & API Routes: Vercel
-    *   Supabase: Cloud-hosted
-*   **Third-Party Services (Free Tiers):**
-    *   Transactional Emails: Resend
-    *   Comment Spam Filtering: Akismet
-    *   Error Tracking: Sentry.io
-    *   AI (Optional/Exploratory): Hugging Face Inference API
+
 
 ## 🖼️ Screenshots (Coming Soon!)
 
@@ -121,7 +84,7 @@ Follow these steps to get the project running locally:
 **1. Clone the Repository:**
 
 ```bash
-git clone https://github.com/[VahantSharma]/[Bloggly].git
+git clone https://github.com/VahantSharma/Bloggly.git
 ```
 
 **2. Install Dependencies:**
